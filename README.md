@@ -57,6 +57,7 @@ The echo command in Linux is used to print text or messages to the terminal or s
 `echo "Additional text" >> existingfile.txt`            #Append text to an existing file
 `echo "The current date is $(date)"`                    #Display the result of a command or command substitution
 
+![pwd Command](./img/7.png)
 
 ### The `cat` Command
 The cat command in Linux is used to display the contents of one or more text files on the terminal. 
