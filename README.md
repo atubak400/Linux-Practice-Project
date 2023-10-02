@@ -1,4 +1,4 @@
-# Intro diction to linux
+# Introduction to linux
 Linux is an open-source, Unix-like operating system kernel that serves as the core component of various Linux distributions. It provides a stable and customizable platform for running computer systems, from servers and desktops to embedded devices.
 
 ## What is Linux Command
