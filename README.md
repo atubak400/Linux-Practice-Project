@@ -68,7 +68,7 @@ The cat command in Linux is used to display the contents of one or more text fil
 * `cat file1.txt file2.txt > combined.txt`        #Create a new file or overwrite an existing file by combining the contents of multiple files
 * `cat file1.txt file2.txt >> existingfile.txt`   #Append the contents of one or more files to an existing file
 
-![pwd Command](./img/7.png)
+![pwd Command](./img/8.png)
 
 ### The `cp` Command
 The cp command in Linux is used to copy files and directories from one location to another. It allows you to duplicate files and directories while preserving their attributes and content.
