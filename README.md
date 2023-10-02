@@ -32,7 +32,7 @@ The cd command in Linux stands for "change directory." It is used to navigate th
 
 The cd command is a fundamental tool for navigating and working with files and directories in the Linux command line. 
 
-![pwd Command](./Img/3.png)
+![cd Command](./Img/3.png)
 
 ### The `ls` Command 
 The ls command in Linux is used to list the files and directories in the current directory or a specified directory. It provides a basic overview of the contents of a folder.
@@ -43,9 +43,9 @@ The ls command in Linux is used to list the files and directories in the current
 * `ls -la`                      #List files and directories in a long format, including hidden files
 * `ls -lh`                      #List files and directories in a human-readable format
 
-![pwd Command](./img/4.png)
-![pwd Command](./img/5.png)
-![pwd Command](./img/6.png)
+![ls Command](./img/4.png)
+![ls Command](./img/5.png)
+![ls Command](./img/6.png)
 
 ### The `echo` Command
 
@@ -57,7 +57,7 @@ The echo command in Linux is used to print text or messages to the terminal or s
 * `echo "Additional text" >> existingfile.txt`            #Append text to an existing file
 * `echo "The current date is $(date)"`                    #Display the result of a command or command substitution
 
-![pwd Command](./img/7.png)
+![echo Command](./img/7.png)
 
 ### The `cat` Command
 The cat command in Linux is used to display the contents of one or more text files on the terminal. 
@@ -68,9 +68,9 @@ The cat command in Linux is used to display the contents of one or more text fil
 * `cat file1.txt file2.txt > combined.txt`        #Create a new file or overwrite an existing file by combining the contents of multiple files
 * `cat file1.txt file2.txt >> existingfile.txt`   #Append the contents of one or more files to an existing file
 
-![pwd Command](./img/8.png)
+![cat Command](./img/8.png)
 
-### The `cp` Command
+### The `cat` Command
 The cp command in Linux is used to copy files and directories from one location to another. It allows you to duplicate files and directories while preserving their attributes and content.
 
 * `cp sourcefile.txt destination/`            #Copy a file to another location
@@ -79,3 +79,5 @@ The cp command in Linux is used to copy files and directories from one location 
 * `cp -a sourcefile.txt destination/`         #Preserve file attributes (such as permissions, timestamps, and ownership) when copying
 * `cp -i sourcefile.txt destination/`         #Prompt for confirmation before overwriting an existing file
 * `cp -s sourcefile.txt symlinkname`          #Create a symbolic link (symlink) to a file or directory instead of copying its contents
+
+![cp Command](./img/9.png)
