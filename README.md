@@ -13,14 +13,14 @@ The "sudo" command in Linux is used to execute a command with superuser privileg
 
 You will be prompted to enter your password to confirm your identity before the command is executed with superuser privileges. This helps enhance system security by restricting elevated access only to authorized users.
 
-![sudo Command](./Img/1.png)
+![sudo Command](./img/1.png)
 
 ### The `pwd` Command
 The pwd command in Linux stands for "print working directory." When you run this command, it displays the current directory or folder you are in within the Linux file system. This can be useful to determine your current location in the directory structure. Here's how you use it: `pwd`
 
 Upon running this command, it will provide the full path to the current directory, helping you understand your file system context.
 
-![pwd Command](./Img/2.png)
+![pwd Command](./img/2.png)
 
 ### The `cd` Command
 The cd command in Linux stands for "change directory." It is used to navigate through the directory structure of the Linux file system by changing your current working directory. You specify the directory you want to move to as an argument to the cd command
@@ -43,9 +43,9 @@ The ls command in Linux is used to list the files and directories in the current
 `ls -la`                      #List files and directories in a long format, including hidden files
 `ls -lh`                      #List files and directories in a human-readable format
 
-![pwd Command](./Img/4.png)
-![pwd Command](./Img/5.png)
-![pwd Command](./Img/6.png)
+![pwd Command](./img/4.png)
+![pwd Command](./img/5.png)
+![pwd Command](./img/6.png)
 
 ### The `echo` Command
 
@@ -67,7 +67,7 @@ The cat command in Linux is used to display the contents of one or more text fil
 `cat file1.txt file2.txt > combined.txt`        #Create a new file or overwrite an existing file by combining the contents of multiple files
 `cat file1.txt file2.txt >> existingfile.txt`   #Append the contents of one or more files to an existing file
 
-![pwd Command](./Img/7.png)
+![pwd Command](./img/7.png)
 
 ### The `cp` Command
 The cp command in Linux is used to copy files and directories from one location to another. It allows you to duplicate files and directories while preserving their attributes and content.
