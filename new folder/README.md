@@ -80,7 +80,7 @@ The mv command in Linux is used to move or rename files and directories. It allo
 * `mv file1.txt file2.txt destination/`       #Move multiple files into a directory
 * `mv -f sourcefile.txt destination/`         #Forcefully overwrite an existing file at the destination
 
-![mv Command](./img/10.png)
+![cp Command](./img/10.png)
 
 ### The `cp` Command
 The cp command in Linux is used to copy files and directories from one location to another. It allows you to duplicate files and directories while preserving their attributes and content.
@@ -94,14 +94,3 @@ The cp command in Linux is used to copy files and directories from one location 
 
 ![cp Command](./img/9.png)
 
-### The `mkdir` Command
-The mkdir command in Linux is used to create new directories or folders within the file system. It allows you to organize and structure your files and data by creating directories to contain them.
-
-* `mkdir new_directory`                       #Create a new directory in the current location
-* `mkdir /path/to/new_directory`              #Create a new directory with a specified path
-* `mkdir dir1 dir2 dir3`                      #Create multiple directories with a single command
-* `mkdir -p /path/to/nested/directory`        #Create parent directories along with a new directory if they don't already exist
-* `mkdir -m 755 new_directory`                #Create directories with specific permissions (e.g., read, write, and execute permissions)
-
-![mkdir Command](./img/11.png)
-![mkdir Command](./img/12.png)
