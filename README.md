@@ -223,10 +223,34 @@ The tar command in Linux is used for archiving and compressing files and directo
 ## File Permission and Ownership
 
 ### The `chmod` Command
+The chmod command in Linux is used to change the permissions (mode) of files and directories. 
+It allows you to control who can read, write, and execute files or directories. 
+The chmod command is often used with symbolic or octal notation to specify permission settings.
 
+* `chmod [options] permissions file(s)`                 #basic syntax of the chmod command
+* `chmod 777 happy.txt happy1.txt happy2.txt`           #set permissions of both files to full read, write, and execute access for the owner, group, and others
+
+![chmod Command](./img/26.png)
 
 ### The `chown` Command
+The chown command in Linux is used to change the ownership of files and directories. 
+It allows you to change the user (owner) and group ownership of one or more files or directories. 
+The chown command is useful for system administrators to manage file and directory ownership on a Linux system
+
+* `chown new_owner filename`                            #Change the owner of a file or directory
+* `chown new_owner:new_group filename`                  #Change the owner and group of a file or directory
+* `chown :new_group filename`                           #Change only the group ownership of a file or directory
+* `chown new_owner file1 file2 directory1 directory2`   #Change the owner of multiple files or directories at once
+
+![chown Command](./img/27.png)
+
 ### The `jobs` Command
+The jobs command in Linux is used to list the background jobs associated with the current shell session. 
+When you run commands in the background (by appending & to the command), they become background jobs, 
+allowing you to continue working in the same terminal session while the job runs in the background.
+
+![jobs Command](./img/28.png)
+
 ### The `kill` Command
 ### The `ping` Command
 ### The `wget` Command
