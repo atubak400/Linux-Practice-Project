@@ -124,7 +124,8 @@ The locate command in Linux is used to quickly locate files and directories on y
 * `locate example`                                       #to find all files with the word "example" in their name or path
 * `locate -i school*note`                                #to search for files that contain the words school and note, whether they use uppercase or lowercase
 
-
+![locate Command](./img/14.png)
+![locate Command](./img/15.png)
 
 ### The `grep` Command
 The grep command in Linux is a powerful tool used for searching and pattern matching within text files or the output of other commands. It allows you to find and display lines in files or text streams that match a specified pattern or regular expression. 
@@ -136,7 +137,7 @@ The grep command in Linux is a powerful tool used for searching and pattern matc
 * `grep -r "pattern" /path/to/directory/`                #Search recursively in directories and subdirectories
 * `grep "^start.*end$" filename.txt`                     #Use regular expressions for more complex pattern matching
 
-
+![grep Command](./img/16.png)
 
 
 ### The `find` Command
@@ -147,7 +148,7 @@ The find command in Linux is a powerful tool for searching and locating files an
 * `find /path/to/search -type d -name "dirname"`           #Find directories by name
 * `find /path/to/search -type f -size +10M`                #Search for files by size (e.g., find all files larger than 10MB)
 
-
+![find Command](./img/17.png)
 
 ### The `which` Command
 The which command in Linux is used to locate and display the full path of an executable program or script in your system's directories. It helps you identify the location of a specific command that you intend to run
@@ -155,7 +156,7 @@ The which command in Linux is used to locate and display the full path of an exe
 * `which command_name`                                     #basic syntax of the which command
 * `which ls`                                               #to find the location of the ls command
 
-
+![which Command](./img/18.png)
 
 ### The `df` Command
 ### The `du` Command
