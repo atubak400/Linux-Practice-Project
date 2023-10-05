@@ -200,10 +200,31 @@ The tail command in Linux is used to display the end (the "tail") of a text file
 ![tail Command](./img/23.png)
 
 ### The `diff` Command
+The diff command in Linux is used to compare the contents of two text files line by line and display the differences between them. It is a useful tool for identifying changes, additions, and deletions in files, making it valuable for tracking changes in code, configuration files, or any text-based documents.
+
+* `diff file1.txt file2.txt`                            #Compare two text files line by line, showing changes between them
+* `diff -y file1.txt file2.txt`                         #Generate a side-by-side comparison of the differences
+* `diff -u file1.txt file2.txt`                         #Generate a unified (context) diff for easier readability
+* `diff -b file1.txt file2.txt`                         #Ignore leading and trailing white space differences
+
+![diff Command](./img/24.png)
+
 ### The `tar` Command
+The tar command in Linux is used for archiving and compressing files and directories into a single file. The term "tar" stands for "tape archive," but it is commonly used to create archive files regardless of whether they are intended for tape storage. The tar command can also be used to extract files from archive files.
+* `tar [options] <source> [<destination>]`                          #Create an archive from source (file, folder etc.)
+* `tar -cvf archive_name.tar directory_to_be_archived`              #Create an archive named 'archive_name.tar
+* `tar [options] -xvf archive_name.tar`                             #extract files from a tar archive
+* `tar -cvf archive.tar file_or_directory`                          #Create a tar archive of a single file or directory
+* `tar -czvf archive.tar.gz file_or_directory`                      #Create a tar archive while displaying the progress
+
+![tar Command](./img/25.png)
+
 
 ## File Permission and Ownership
+
 ### The `chmod` Command
+
+
 ### The `chown` Command
 ### The `jobs` Command
 ### The `kill` Command
