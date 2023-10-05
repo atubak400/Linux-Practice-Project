@@ -159,9 +159,46 @@ The which command in Linux is used to locate and display the full path of an exe
 ![which Command](./img/18.png)
 
 ### The `df` Command
+The df command in Linux is used to display information about disk space usage on mounted file systems. It provides details about the total disk space, used space, available space, and other relevant information for each mounted file system.
+
+* `df [options] [filesystem...]`                        #basic syntax of the df command
+* `df`                                                  #Display disk space usage for all mounted file systems
+* `df -h`                                               #Display disk space usage in a human-readable forma
+* `df /path/to/directory`                               #Show disk space usage for a specific file system or directory
+
+![df Command](./img/19.png)
+
 ### The `du` Command
+The du (disk usage) command in Linux is used to estimate and display the disk space usage of files and directories. 
+It provides information about the size of files and directories, helping you identify which parts of your file system consume the most storage space.
+
+* `du /path/to/directory`                                   #Display the disk space usage of a specific directory
+* `du [-shx][directory or file path]`                       #basic syntax of du command
+* `du -s .`                                                 #total disk space used in current directory
+* `du -hs * | sort -rh | head -50`                          #sort and display top 50 largest folders in MB
+* `du -sh /path/to/directory`                               #Display the total disk space usage for a directory and its subdirectories
+
+![du Command](./img/20.png)
+![du Command](./img/21.png)
+
 ### The `head` Command
+The head command in Linux is used to display the beginning (the "head") of a text file or the output of a command. By default, it shows the first 10 lines of a file or the first 10 lines of the output from a command
+
+* `head [options...] [file ...]`                         #display first few lines from each FILE to standard output
+* `head filename`                                        #display first few lines from text files (default is ten, can be changed with `-n`)
+* `head -n 5 filename.txt`                               #Display a specific number of lines (e.g., 5 lines) from the beginning of a file
+* `head file1.txt file2.txt`                             #Display the first few lines of multiple files
+
+![head Command](./img/22.png)
+
 ### The `tail` Command
+The tail command in Linux is used to display the end (the "tail") of a text file or the output of a command. By default, it shows the last 10 lines of a file or the last 10 lines of the output from a command
+
+* `tail filename`                                         #display last n number of line from given textfile, default is ten
+* `tail file1.txt file2.txt`                              #Display last few lines of multiple files
+
+![tail Command](./img/23.png)
+
 ### The `diff` Command
 ### The `tar` Command
 
