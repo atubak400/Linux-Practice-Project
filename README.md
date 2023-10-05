@@ -32,7 +32,7 @@ The cd command in Linux stands for "change directory." It is used to navigate th
 
 The cd command is a fundamental tool for navigating and working with files and directories in the Linux command line. 
 
-![cd Command](./Img/3.png)
+![cd Command](./img/3.png)
 
 ### The `ls` Command 
 The ls command in Linux is used to list the files and directories in the current directory or a specified directory. It provides a basic overview of the contents of a folder.
