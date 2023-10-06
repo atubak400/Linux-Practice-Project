@@ -249,21 +249,109 @@ The jobs command in Linux is used to list the background jobs associated with th
 When you run commands in the background (by appending & to the command), they become background jobs, 
 allowing you to continue working in the same terminal session while the job runs in the background.
 
-![jobs Command](./img/28.png)
+![chown Command](./img/28.png)
 
-### The `kill` Command
+### The `kill` Command 
+Terminates processes or sends signals to running processes, allowing users to control and manage processes on a Linux system. It is commonly used to stop misbehaving applications, gracefully shut down services, and control various aspects of process management.
+
+* `kill [signal] PID`                               #terminate a process by its PID
+* `ps aux | grep firefox, kill PID`                 #Find the PID of the process you want to terminate and kill it
+
+![kill Command](./img/29.png)
+![kill Command](./img/30.png)
+
 ### The `ping` Command
+A network utility that sends ICMP Echo Request messages to a host or IP address to check its availability and measure the round-trip time for packets to travel to and from the destination. It is commonly used to diagnose network connectivity issues and determine the responsiveness of remote hosts or websites.
+* `ping host`                                           #Check if a host is reachable
+* `ping google.com`                                     #Connect to Google and measure its response time
+
+![ping Command](./img/31.png)
+
+
 ### The `wget` Command
+The wget command in Linux is used to download files from the internet. It is a powerful and versatile tool for fetching files, and it supports various protocols such as HTTP, HTTPS, FTP, and more.
+* `wget url-name -O outputfile`                         #Download a web page from internet into an HTML document named "outputfile"
+* `wget http://www.example.org/`                        #Download an entire web page from the specified URL using wget
+* `wget https://wordpress.org/latest.zip`               #Download the latest version of Wordpress
+
+![wget Command](./img/32.png)
+![wget Command](./img/33.png)
+
+
 ### The `uname` Command
+This command prints system information. It's commonly used for troubleshooting, as it provides details about the running kernel that may help identify software issues
+
+* `uname`                                               #displays the operating system name
+* `uname -a`                                            #provides a detailed output that includes information about the kernel
+* `uname -s`                                            #display the kernel name
+* `uname -n`                                            #display the network node hostname. It provides the hostname of the system
+
+![uname Command](./img/34.png)
+
+
 ### The `top` Command
+Displays real-time system resource usage, including CPU, memory, and processes, in a dynamic and interactive manner.
+* `top` 
+
+![top Command](./img/35.png)
+
 ### The `history` Command
+Shows a list of previously executed commands in the terminal, allowing users to recall and re-run commands
+* `history`                                         #list previously executed commands        
+* `!1085`                                           #use history in combination with ! to rerun a specific command by its number
+* `history > my_commands.txt`                       #save your command history to a file for later reference or analysis
+* `history | tail -3`                               #view the last 3 commands from your command history 
+
+![history Command](./img/36.png)
+
+
 ### The `man` Command
+Opens the manual pages for a specified command, providing detailed documentation and usage instructions.
+* `man [command_name]`
+* `man ls`                                          #displays the manual page for the ls command
+
+![man Command](./img/37.png)
+
 ### The `echo` Command
+Displays a message or text on the terminal, often used for printing text or variables in scripts.
+
+
+
 ### The `zip`, `unzip` Commands
+used to compress files into ZIP archives, while unzip is used to extract files from ZIP archives.
+
+
+
 ### The `useradd`, `userdel` Commands
+The useradd, userdel Commands: useradd is used to create new user accounts, and userdel is used to delete user accounts on a Linux system.
+
+
+
 ### The `apt-get` Command
+A package management tool on Debian-based Linux distributions (e.g., Ubuntu) used to install, update, and manage software packages.
+
+
+
 ### The `nano`, `vi`, `jed` Commands
+Text editors in Linux. nano is user-friendly, vi is a powerful modal editor, and jed is an extensible text editor.
+
+
+
 ### The `alias`, `unalias` Commands
+Creates shortcuts or aliases for frequently used commands, while unalias removes these shortcuts.
+
+
+
 ### The `su` Command
+Allows users to switch to a different user account, typically the superuser (root), after providing the necessary password.
+
+
+
 ### The `htop` Command
+An interactive process viewer and system monitor, similar to top but with enhanced features and visual representation.
+
+
+
 ### The `ps` Command
+Lists currently running processes on the system, providing information such as process IDs, resource usage, and more.
+

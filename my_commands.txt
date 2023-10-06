@@ -1,0 +1,16 @@
+ 1086  cd -
+ 1087  cd ~/Desktop/Piano/Mine
+ 1088  ./calculate_mp4_length.sh
+ 1089  jobs
+ 1090  ./calculate_mp4_length.sh
+ 1091  ./calculate_mp4_length.sh
+ 1092  cd -
+ 1093  sleep 60 &
+ 1094  jobs
+ 1095  jobs
+ 1096  jobs
+ 1097  top
+ 1098  history
+ 1099  jobs
+ 1100  cd ~
+ 1101  cd -
