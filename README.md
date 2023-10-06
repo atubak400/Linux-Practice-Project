@@ -312,13 +312,19 @@ Opens the manual pages for a specified command, providing detailed documentation
 
 ![man Command](./img/37.png)
 
-### The `echo` Command
-Displays a message or text on the terminal, often used for printing text or variables in scripts.
-
-
 
 ### The `zip`, `unzip` Commands
 used to compress files into ZIP archives, while unzip is used to extract files from ZIP archives.
+
+* `zip -r archive.zip directory/`                           #Create a ZIP archive from a directory
+* `zip archive.zip file1.txt file2.txt`                     #Add files to an existing ZIP archive
+* `zip -e secure.zip file.txt`                              #Create a password-protected ZIP archive
+* `unzip archive.zip`                                       #Extract files from a ZIP archive
+* `unzip archive.zip -d destination_directory/`             #Extract files to a specific directory
+* `unzip -l archive.zip`                                    #List the contents of a ZIP archive
+* `unzip -P password secure.zip`                            #Extract a password-protected ZIP archive
+
+![man Command](./img/38.png)
 
 
 
