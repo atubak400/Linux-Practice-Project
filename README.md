@@ -360,6 +360,7 @@ Creates shortcuts or aliases for frequently used commands, while unalias removes
 * `unalias name`                                            #Removes alias by its name
 * `unalias g`                                               #remove "g" alias
 ![alias Command](./img/41.png)
+![alias Command](./img/44.png)
 ### The `su` Command
 Allows users to switch to a different user account, typically the superuser (root), after providing the necessary password.
 * `su`                                                      #Switch to the root user
