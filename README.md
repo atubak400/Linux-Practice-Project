@@ -324,40 +324,56 @@ used to compress files into ZIP archives, while unzip is used to extract files f
 * `unzip -l archive.zip`                                    #List the contents of a ZIP archive
 * `unzip -P password secure.zip`                            #Extract a password-protected ZIP archive
 
-![man Command](./img/38.png)
+![zip Command](./img/38.png)
 
 
 
 ### The `useradd`, `userdel` Commands
 The useradd, userdel Commands: useradd is used to create new user accounts, and userdel is used to delete user accounts on a Linux system.
+* `sudo useradd newuser`                                   #Create a new user account
+* `id newuser`                                             #check if a user exists
+* `sudo userdel newuser`                                   #Delete a user account without removing the user's home directory
+* `sudo passwd newuser`                                    #Set or change passwords for a user
+* `sudo userdel -r username`                               #Delete a user account and their home directory
 
-
+![useradd Command](./img/39.png)
 
 ### The `apt-get` Command
 A package management tool on Debian-based Linux distributions (e.g., Ubuntu) used to install, update, and manage software packages.
-
-
+* `sudo apt-get update`                                   #Create a new user account
+* `sudo apt-get install package-name`                     #install a package
+* `sudo apt-get remove package-name`                      #remove a package
+* `sudo apt-get upgrade`                                  #perform a full system upgrade, including the installation of new packages and the removal of obsolete one
+* `sudo apt-get clean`                                    #remove downloaded package archives from the cache, freeing up disk space
+![apt-get Command](./img/40.png)
 
 ### The `nano`, `vi`, `jed` Commands
 Text editors in Linux. nano is user-friendly, vi is a powerful modal editor, and jed is an extensible text editor.
-
-
+* `nano [filename]`                                        #Edit text documents with nano editor
+* `vi filename`                                            #Edit text documents with vim (or emacs)
+* `jed filename`                                           #Edit configuration files in JED editor
 
 ### The `alias`, `unalias` Commands
 Creates shortcuts or aliases for frequently used commands, while unalias removes these shortcuts.
-
-
-
+* `alias alias_name='command or string'`                    #basic syntax for creating an alias
+* `alias g='git'`                                           #create an alias called "g" for the git command
+* `unalias name`                                            #Removes alias by its name
+* `unalias g`                                               #remove "g" alias
+![alias Command](./img/41.png)
 ### The `su` Command
 Allows users to switch to a different user account, typically the superuser (root), after providing the necessary password.
-
-
-
+* `su`                                                      #Switch to the root user
+* `su user2`                                                #Switch to another user (e.g., user2)
+* `su - user3`                                              #Start a new shell as another use
+* `exit`                                                    #exit the su session and return to your original user
 ### The `htop` Command
-An interactive process viewer and system monitor, similar to top but with enhanced features and visual representation.
-
-
+A text-based, interactive system monitoring utility for Unix-like operating systems, including Linux. It provides an improved and more user-friendly alternative to the traditional top command, allowing users to monitor system processes, resource utilization, and system performance in real-time.
+* `htop`   
+![htop Command](./img/42.png)
 
 ### The `ps` Command
 Lists currently running processes on the system, providing information such as process IDs, resource usage, and more.
-
+* `ps`                                       #list your own processes (those started by your user)
+* `ps -e`                                    #list all processes on the system, including those of other users
+* `ps -ef`                                   #display processes in full format, including additional information such as the process status, terminal, and CPU usage
+![ps Command](./img/43.png)
