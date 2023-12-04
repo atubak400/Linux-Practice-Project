@@ -347,9 +347,10 @@ A package management tool on Debian-based Linux distributions (e.g., Ubuntu) use
 * `sudo apt-get clean`                                    #remove downloaded package archives from the cache, freeing up disk space
 ![apt-get Command](./img/40.png)
 
-### The `nano`, `vi`, `jed` Commands
+### The `nano`, `code`, `vi`, `jed` Commands
 Text editors in Linux. nano is user-friendly, vi is a powerful modal editor, and jed is an extensible text editor.
 * `nano [filename]`                                        #Edit text documents with nano editor
+* `code [filename]`                                        #Edit text documents with vscode editor
 * `vi filename`                                            #Edit text documents with vim (or emacs)
 * `jed filename`                                           #Edit configuration files in JED editor
 
